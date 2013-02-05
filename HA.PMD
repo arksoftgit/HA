@@ -1,0 +1,2461 @@
+z1000-Zeidon    HA       TZEREMDO 02/05/13   11:02:26 1.0a2    
+eEntpER_Model 1
+aName      HA
+aZKey      68568353
+aLastSyncDate 20130205110226161
+aDesc      Health Allianze Application
+
+eER_Entity 2
+aName      Address
+aZKey      4906851
+aPurpose   F
+aER_DiagramPosX 5
+aER_DiagramPosY 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      ID
+aZKey      4907046
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+aZKey      68568083
+aDesc      Integer numbers from -lots to +lots
+aName      Integer
+aDataType  L
+aMaxStringLth 4
+aDecimalFormat 0
+aDomainType E
+aContextRestriction N
+
+eER_FactTypeForDelete 4
+aZKey      4907067
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907066
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906865
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906863
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 25
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 25
+aER_DiagramE1PosY 13
+aER_DiagramE2PosX 14
+aER_DiagramE2PosY 4
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906864
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+aName      Person
+aZKey      4906850
+aPurpose   F
+aER_DiagramPosX 21
+aER_DiagramPosY 14
+
+eER_RelLink 3
+aName      for
+aZKey      4906868
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906866
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 27
+aER_DiagramBendPosY 2
+aER_DiagramE1PosX 27
+aER_DiagramE1PosY 13
+aER_DiagramE2PosX 14
+aER_DiagramE2PosY 2
+
+eER_RelLink_Other 5
+aName      has primary
+aZKey      4906867
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix Y
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      for
+aZKey      4906983
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906981
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 5
+aER_DiagramE1PosY 52
+aER_DiagramE2PosX 5
+aER_DiagramE2PosY 7
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906982
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+aName      MedicalFacility
+aZKey      4906871
+aPurpose   F
+aER_DiagramPosX 3
+aER_DiagramPosY 53
+
+eER_RelLink 3
+aName      is primary for
+aZKey      4906986
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906984
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 3
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 3
+aER_DiagramE1PosY 52
+aER_DiagramE2PosX 4
+aER_DiagramE2PosY 4
+
+eER_RelLink_Other 5
+aName      has primary
+aZKey      4906985
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      ClinicalTest
+aZKey      4906975
+aPurpose   F
+aER_DiagramPosX 97
+aER_DiagramPosY 50
+
+eER_Attribute 3
+aName      ID
+aZKey      4907047
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907069
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907068
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4907036
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907034
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 85
+aER_DiagramE1PosY 53
+aER_DiagramE2PosX 96
+aER_DiagramE2PosY 53
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4907035
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      Result
+aZKey      4907012
+aPurpose   F
+aER_DiagramPosX 76
+aER_DiagramPosY 51
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      Diagnosis
+aZKey      4906967
+aPurpose   F
+aER_DiagramPosX 59
+aER_DiagramPosY 32
+
+eER_Attribute 3
+aName      ID
+aZKey      4907048
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907071
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907070
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906970
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906968
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 55
+aER_DiagramBendPosY 34
+aER_DiagramE1PosX 55
+aER_DiagramE1PosY 36
+aER_DiagramE2PosX 58
+aER_DiagramE2PosY 34
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906969
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      Encounter
+aZKey      4906892
+aPurpose   F
+aDesc      Encounter data includes the writeup attributes (report, conclusions) of the encounter.
+aER_DiagramPosX 47
+aER_DiagramPosY 37
+
+eER_RelLink 3
+aName      for
+aZKey      4907003
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907001
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 63
+aER_DiagramBendPosY 22
+aER_DiagramE1PosX 65
+aER_DiagramE1PosY 22
+aER_DiagramE2PosX 63
+aER_DiagramE2PosY 31
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4907002
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      Event
+aZKey      4906905
+aPurpose   F
+aER_DiagramPosX 66
+aER_DiagramPosY 20
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      ID
+aZKey      4907049
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907074
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907072
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      LocationType
+aZKey      4907004
+aDesc      Side of Road, Ambulance, Home, Medical Faciltilty
+awkSequence 2
+
+eDomain    4
+aZKey      68568081
+aDesc      Any Character String
+aName      Text
+aDataType  S
+aMaxStringLth 254
+aDomainType E
+aContextRestriction N
+
+eER_RelLink 3
+aName      for
+aZKey      4906898
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906896
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 49
+aER_DiagramBendPosY 43
+aER_DiagramE1PosX 24
+aER_DiagramE1PosY 43
+aER_DiagramE2PosX 49
+aER_DiagramE2PosY 42
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906897
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      MedicalPerson
+aZKey      4906884
+aPurpose   F
+aER_DiagramPosX 15
+aER_DiagramPosY 39
+
+eER_RelLink 3
+aName      for
+aZKey      4906901
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906899
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 53
+aER_DiagramBendPosY 57
+aER_DiagramE1PosX 12
+aER_DiagramE1PosY 57
+aER_DiagramE2PosX 53
+aER_DiagramE2PosY 42
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906900
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      describes
+aZKey      4906903
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906902
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 36
+aER_DiagramBendPosY 39
+aER_DiagramE1PosX 46
+aER_DiagramE1PosY 39
+aER_DiagramE2PosX 36
+aER_DiagramE2PosY 36
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906904
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      Symptom
+aZKey      4906891
+aPurpose   F
+aER_DiagramPosX 32
+aER_DiagramPosY 31
+
+eER_RelLink 3
+aName      for
+aZKey      4906914
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906912
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 54
+aER_DiagramBendPosY 20
+aER_DiagramE1PosX 65
+aER_DiagramE1PosY 20
+aER_DiagramE2PosX 54
+aER_DiagramE2PosY 36
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906913
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      has
+aZKey      4906993
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4906992
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 84
+aER_DiagramBendPosY 39
+aER_DiagramE1PosX 56
+aER_DiagramE1PosY 39
+aER_DiagramE2PosX 84
+aER_DiagramE2PosY 13
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906994
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+aName      VitalSign
+aZKey      4906938
+aPurpose   F
+aER_DiagramPosX 80
+aER_DiagramPosY 8
+
+eER_RelLink 3
+aName      has
+aZKey      4907007
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4907006
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 59
+aER_DiagramBendPosY 40
+aER_DiagramE1PosX 56
+aER_DiagramE1PosY 40
+aER_DiagramE2PosX 59
+aER_DiagramE2PosY 51
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4907008
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+aName      Order
+aZKey      4907005
+aPurpose   F
+aER_DiagramPosX 59
+aER_DiagramPosY 52
+
+eER_RelLink 3
+aName      has
+aZKey      4907020
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907019
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 80
+aER_DiagramBendPosY 41
+aER_DiagramE1PosX 56
+aER_DiagramE1PosY 41
+aER_DiagramE2PosX 80
+aER_DiagramE2PosY 50
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4907021
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      has
+aZKey      4907023
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4907022
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 55
+aER_DiagramBendPosY 61
+aER_DiagramE1PosX 55
+aER_DiagramE1PosY 42
+aER_DiagramE2PosX 58
+aER_DiagramE2PosY 61
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4907024
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+aName      Protocols
+aZKey      4906977
+aPurpose   F
+aER_DiagramPosX 59
+aER_DiagramPosY 59
+
+eER_RelLink 3
+aName      has
+aZKey      4907026
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4907025
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 54
+aER_DiagramBendPosY 68
+aER_DiagramE1PosX 54
+aER_DiagramE1PosY 42
+aER_DiagramE2PosX 58
+aER_DiagramE2PosY 68
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4907027
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+aName      Treatment
+aZKey      4906973
+aPurpose   F
+aER_DiagramPosX 59
+aER_DiagramPosY 66
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907050
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907076
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907075
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906908
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906906
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 70
+aER_DiagramBendPosY 14
+aER_DiagramE1PosX 57
+aER_DiagramE1PosY 14
+aER_DiagramE2PosX 70
+aER_DiagramE2PosY 19
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906907
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+aName      Patient
+aZKey      69011498
+aPurpose   F
+aER_DiagramPosX 48
+aER_DiagramPosY 12
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      for
+aZKey      4906937
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906935
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 72
+aER_DiagramBendPosY 6
+aER_DiagramE1PosX 57
+aER_DiagramE1PosY 6
+aER_DiagramE2PosX 72
+aER_DiagramE2PosY 19
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906936
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      JournalEntry
+aZKey      4906931
+aPurpose   F
+aER_DiagramPosX 48
+aER_DiagramPosY 2
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      Imaging
+aZKey      4906976
+aPurpose   F
+aER_DiagramPosX 97
+aER_DiagramPosY 57
+
+eER_Attribute 3
+aName      ID
+aZKey      4907051
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907078
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907077
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4907039
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907037
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 80
+aER_DiagramBendPosY 59
+aER_DiagramE1PosX 80
+aER_DiagramE1PosY 56
+aER_DiagramE2PosX 96
+aER_DiagramE2PosY 59
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4907038
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907052
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907080
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907079
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906934
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906932
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 52
+aER_DiagramE1PosY 11
+aER_DiagramE2PosX 52
+aER_DiagramE2PosY 7
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906933
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      has
+aZKey      4906940
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906939
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 84
+aER_DiagramBendPosY 4
+aER_DiagramE1PosX 57
+aER_DiagramE1PosY 4
+aER_DiagramE2PosX 84
+aER_DiagramE2PosY 7
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906941
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      LabTest
+aZKey      4906974
+aPurpose   F
+aER_DiagramPosX 97
+aER_DiagramPosY 64
+
+eER_Attribute 3
+aName      ID
+aZKey      4907053
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907082
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907081
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4907042
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907040
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 78
+aER_DiagramBendPosY 66
+aER_DiagramE1PosX 78
+aER_DiagramE1PosY 56
+aER_DiagramE2PosX 96
+aER_DiagramE2PosY 66
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4907041
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      LegalDocument
+aZKey      4906949
+aPurpose   F
+aER_DiagramPosX 28
+aER_DiagramPosY 23
+
+eER_Attribute 3
+aName      ID
+aZKey      4907054
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907084
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907083
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906952
+aCardMin   1
+aCardMax   1
+
+eER_RelType_1 4
+aZKey      4906950
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 32
+aER_DiagramBendPosY 16
+aER_DiagramE1PosX 47
+aER_DiagramE1PosY 16
+aER_DiagramE2PosX 32
+aER_DiagramE2PosY 22
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906951
+aCardMin   0
+aCardMax   m
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907055
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907086
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907085
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4906887
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906885
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 7
+aER_DiagramBendPosY 41
+aER_DiagramE1PosX 7
+aER_DiagramE1PosY 52
+aER_DiagramE2PosX 14
+aER_DiagramE2PosY 41
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906886
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      for
+aZKey      4906890
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906888
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 25
+aER_DiagramBendPosY 41
+aER_DiagramE1PosX 25
+aER_DiagramE1PosY 19
+aER_DiagramE2PosX 24
+aER_DiagramE2PosY 41
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4906889
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907056
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907088
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907087
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907057
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907090
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907089
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      has
+aZKey      4907014
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4907013
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 68
+aER_DiagramE1PosY 54
+aER_DiagramE2PosX 75
+aER_DiagramE2PosY 54
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4907015
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 1
+
+eER_Attribute 3
+aName      ID
+aZKey      69021560
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      69021575
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      69021562
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      Description
+aZKey      4906849
+awkSequence 2
+
+eDomain    4
+
+eER_RelLink 3
+aName      has
+aZKey      4906861
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906860
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 0
+aER_DiagramBendPosY 0
+aER_DiagramE1PosX 47
+aER_DiagramE1PosY 14
+aER_DiagramE2PosX 30
+aER_DiagramE2PosY 14
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906862
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+aName      has
+aZKey      4906996
+aCardMin   0
+aCardMax   m
+
+eER_RelType_1 4
+aZKey      4906995
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 51
+aER_DiagramBendPosY 33
+aER_DiagramE1PosX 51
+aER_DiagramE1PosY 17
+aER_DiagramE2PosX 41
+aER_DiagramE2PosY 33
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906997
+aCardMin   1
+aCardMax   1
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+awkSelectedAttributeForDragSort 5
+
+eER_Attribute 3
+aName      ID
+aZKey      4906852
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907092
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907091
+aSystemMaintained Y
+
+eER_Attribute 3
+aName      LastName
+aZKey      4907106
+awkSequence 2
+
+eDomain    4
+aZKey      68568065
+aDesc      General Text (names, streets, cities, etc.)
+aName      GeneralName_Address
+aDataType  S
+aMaxStringLth 128
+aDomainType E
+aContextRestriction N
+
+eER_Attribute 3
+aName      FirstName
+aZKey      4907107
+awkSequence 3
+
+eDomain    4
+
+eER_Attribute 3
+aName      MiddleName
+aZKey      4907108
+awkSequence 4
+
+eDomain    4
+
+eER_Attribute 3
+aName      Suffix
+aZKey      4907109
+awkSequence 5
+
+eDomain    4
+
+eER_Attribute 3
+aName      DateOfBirth
+aZKey      4907114
+awkSequence 6
+
+eDomain    4
+aZKey      68568090
+aDesc      This domain manipulates the date portion of DateTime
+aName      Date
+aDataType  D
+aDomainType A
+aContextRestriction N
+
+eER_Attribute 3
+aName      Gender
+aZKey      4907115
+awkSequence 7
+
+eDomain    4
+aZKey      68568058
+aDesc      (Male/Female)
+aName      Gender
+aDataType  S
+aMaxStringLth 1
+aDomainType T
+aContextRestriction N
+
+eER_RelLink 3
+aName      has
+aZKey      4906858
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4906857
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 14
+aER_DiagramBendPosY 16
+aER_DiagramE1PosX 20
+aER_DiagramE1PosY 16
+aER_DiagramE2PosX 14
+aER_DiagramE2PosY 20
+
+eER_RelLink_Other 5
+aName      for
+aZKey      4906859
+aCardMin   0
+aCardMax   m
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+aName      PersonalRelationship
+aZKey      4906856
+aPurpose   S
+aER_DiagramPosX 10
+aER_DiagramPosY 21
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907059
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907094
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907093
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+aName      Procedure
+aZKey      4906972
+aPurpose   F
+aER_DiagramPosX 97
+aER_DiagramPosY 71
+
+eER_Attribute 3
+aName      ID
+aZKey      4907060
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907096
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907095
+aSystemMaintained Y
+
+eER_RelLink 3
+aName      for
+aZKey      4907045
+aCardMin   1
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_RelType_1 4
+aZKey      4907043
+aFact      Added thru ER Dialog
+aER_DiagramBendPosX 76
+aER_DiagramBendPosY 73
+aER_DiagramE1PosX 76
+aER_DiagramE1PosY 56
+aER_DiagramE2PosX 96
+aER_DiagramE2PosY 73
+
+eER_RelLink_Other 5
+aName      has
+aZKey      4907044
+aCardMin   0
+aCardMax   1
+aAutoSeq   N
+aTE_NoForeignKeyPrefix N
+aHangingForeignKeyEntity N
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907061
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907098
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907097
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907062
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+aName      ID
+aZKey      4907099
+aSystemMaintained Y
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907063
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907101
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907100
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907064
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907103
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907102
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_Entity 2
+
+eER_Attribute 3
+aName      ID
+aZKey      4907065
+aNotNull   Y
+awkSequence 1
+
+eDomain    4
+
+eER_FactTypeForDelete 4
+aZKey      4907105
+
+eER_EntIdentifierForDelete 5
+aName      ID
+aZKey      4907104
+aSystemMaintained Y
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_RelLink 3
+
+eER_RelType_1 4
+
+eER_RelLink_Other 5
+
+eER_Entity_Other 6
+
+eER_EntIdentifier 3
+
+eER_FactType 4
+
+eER_AttributeIdentifier 5
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelType 2
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_RelLink_2 3
+
+eER_Entity_2 4
+
+eER_AttributeCopy 2
+
+eDomainCopy 3
+
+i13        9
+i21        17
+i22        5
+i23        4
+i24        2
+i27        3
+i34        29
+i35        28
+i36        26
+i39        3
+i50        41
+i51        40
+i52        38
+i53        45
+i55        3
+i67        17
+i75        49
+i76        44
+i77        43
+i78        42
+i79        37
+i91        33
+i100       57
+i101       56
+i102       54
+i103       49
+i105       3
+i112       74
+i113       73
+i114       72
+i115       45
+i120       48
+i121       47
+i122       46
+i123       37
+i124       107
+i125       106
+i126       104
+i129       3
+i135       33
+i136       131
+i137       130
+i138       128
+i139       119
+i141       3
+i147       111
+i148       118
+i149       117
+i150       116
+i151       49
+i155       83
+i156       143
+i157       142
+i158       140
+i161       3
+i167       33
+i168       163
+i169       162
+i170       160
+i173       3
+i179       111
+i180       175
+i181       174
+i182       172
+i183       63
+i185       3
+i191       17
+i195       9
+i196       62
+i197       61
+i198       60
+i199       45
+i200       187
+i201       186
+i202       184
+i203       17
+i205       3
+i208       190
+i209       189
+i210       188
+i211       63
+i212       66
+i213       65
+i214       64
+i215       45
+i216       16
+i217       15
+i218       14
+i219       1
+i220       20
+i221       19
+i222       18
+i223       1
+i224       207
+i225       206
+i226       204
+i227       87
+i229       3
+i232       86
+i233       85
+i234       84
+i235       45
+i239       33
+i240       231
+i241       230
+i242       228
+i243       111
+i245       3
+i249       59
+i253       9
+i254       110
+i255       109
+i256       108
+i257       49
+i258       146
+i259       145
+i260       144
+i261       119
+i262       178
+i263       177
+i264       176
+i265       171
+i269       71
+i270       247
+i271       246
+i272       244
+i273       9
+i275       3
+i281       279
+i283       279
+i285       279
+i294       252
+i295       251
+i296       250
+i297       111
+i298       8
+i299       7
+i300       6
+i301       1
+i302       12
+i303       11
+i304       10
+i305       1
+i306       194
+i307       193
+i308       192
+i309       63
+i310       277
+i311       276
+i312       274
+i313       293
+i315       3
+i318       292
+i319       291
+i320       290
+i321       9
+i322       317
+i323       316
+i324       314
+i327       3
+i333       33
+i334       329
+i335       328
+i336       326
+i337       95
+i339       3
+i342       94
+i343       93
+i344       92
+i345       45
+i346       341
+i347       340
+i348       338
+i349       33
+i351       3
+i352       238
+i353       237
+i354       236
+i355       87
+i356       90
+i357       89
+i358       88
+i359       45
+i360       32
+i361       31
+i362       30
+i363       25
+i364       134
+i365       133
+i366       132
+i367       127
+i368       166
+i369       165
+i370       164
+i371       159
+i372       332
+i373       331
+i374       330
+i375       325
+i377       71
+i379       3
+i382       70
+i383       69
+i384       68
+i385       45
+i386       268
+i387       267
+i388       266
+i389       111
+i390       381
+i391       380
+i392       378
+i393       99
+i395       3
+i398       98
+i399       97
+i400       96
+i401       45
+i402       397
+i403       396
+i404       394
+i405       83
+i407       3
+i410       154
+i411       153
+i412       152
+i413       119
+i414       82
+i415       81
+i416       80
+i417       45
+i418       409
+i419       408
+i420       406
+i421       291
+i422       290
+i423       9
+i424       292
+i425       293
+i426       81
+i427       80
+i428       45
+i429       82
+i430       83
+i431       251
+i432       250
+i433       111
+i434       252
+i435       9
+i436       7
+i437       8
+i438       9
+i439       6
+i440       1
+i441       11
+i442       12
+i443       9
+i444       10
+i445       1
+i446       189
+i447       190
+i448       17
+i449       188
+i450       63
+i451       61
+i452       62
+i453       63
+i454       60
+i455       45
+i456       267
+i457       266
+i458       111
+i459       268
+i460       71
+i461       31
+i462       32
+i463       33
+i464       30
+i465       25
+i466       133
+i467       134
+i468       33
+i469       132
+i470       127
+i471       165
+i472       166
+i473       33
+i474       164
+i475       159
+i476       331
+i477       332
+i478       33
+i479       330
+i480       325
+i481       15
+i482       16
+i483       17
+i484       14
+i485       1
+i486       47
+i487       48
+i488       49
+i489       46
+i490       37
+i491       19
+i492       20
+i493       17
+i494       18
+i495       1
+i496       69
+i497       68
+i498       45
+i499       70
+i500       71
+i501       109
+i502       110
+i503       111
+i504       108
+i505       49
+i506       73
+i507       74
+i508       49
+i509       72
+i510       45
+i511       65
+i512       66
+i513       17
+i514       64
+i515       45
+i516       85
+i517       84
+i518       45
+i519       86
+i520       87
+i521       145
+i522       146
+i523       111
+i524       144
+i525       119
+i526       237
+i527       236
+i528       87
+i529       238
+i530       33
+i531       43
+i532       44
+i533       45
+i534       42
+i535       37
+i536       89
+i537       88
+i538       45
+i539       90
+i540       33
+i541       93
+i542       92
+i543       45
+i544       94
+i545       95
+i546       97
+i547       96
+i548       45
+i549       98
+i550       99
+i551       117
+i552       118
+i553       119
+i554       116
+i555       49
+i556       153
+i557       152
+i558       119
+i559       154
+i560       83
+i561       177
+i562       178
+i563       111
+i564       176
+i565       171
+i566       193
+i567       194
+i568       9
+i569       192
+i570       63
+i571       2
+i572       3

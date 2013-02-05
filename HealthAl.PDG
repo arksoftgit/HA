@@ -1,0 +1,31 @@
+z1000-Zeidon    HEALTHAL TZDGSRCO 02/04/13   19:42:02 1.0a2    
+eDomainGroup 1
+aZKey      4907118
+aName      HealthAl
+aExtension C
+
+eDomain    2
+aZKey      4907119
+aName      MedicineFormType
+aDomainType T
+aDataType  S
+aMaxStringLth 64
+aContextRestriction N
+
+eContext   3
+aZKey      4907120
+aName      MedicineFormType
+
+eTableEntry 4
+aZKey      4907123
+
+eTableEntry 4
+aZKey      4907121
+aExternalValue Capsule
+aInternalValue Cap
+
+eTableEntry 4
+aZKey      4907122
+aExternalValue Pill
+aInternalValue Pill
+
